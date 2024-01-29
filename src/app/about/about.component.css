@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+.divOne{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 2% 5%;
+    padding: 1%;
+}
+.title{
+    color: orangered;
+    text-decoration: underline;
+}
+.about{
+    color: orangered;
+}
+.description{
+    color:sandybrown
+}
+button{
+    margin:10px 45px;
+    padding:auto;
+    background-color: coral;
+}

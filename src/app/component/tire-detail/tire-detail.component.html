@@ -1,0 +1,22 @@
+<div class="container">
+    <img class="image" [src]="imageURL">
+    <div class="divOne">
+        <h3 class="title">
+            {{name}}
+        </h3>
+        <h4 class="price">
+            {{price}}
+        </h4>
+        <p class="pOne">
+            {{description}}
+        </p>
+        <p class="pTwo">
+            {{warrantyinfo}}
+        </p>
+    </div>
+    <div class="btn">
+        <button mat-stroked-button [routerLink]="['/editProduct/', id]">Edit</button>
+        <button mat-stroked-button (click)="onDelete(id)">Delete</button>
+        <button mat-stroked-button [routerLink]="['/products']">Back</button>
+    </div>
+</div>

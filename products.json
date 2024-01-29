@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Firestone Destination A/T2",
+      "imageURL": "https://assets.firestonetire.com/content/dam/consumer/fst/shared/tires/destination-at2/tilted.jpg",
+      "price": "$229.99",
+      "description": "P265/65/R18, Backed by a 55,000-mile limited mileage warranty**, the Firestone Destination A/T2 is built to kick up dirt. Whether it's everyday driving or tackling off-road terrain, these tough tires help give you dependable traction and the ability to plow through tough terrains.*",
+      "warrantyInfo": "55,000-mile limited mileage warranty**"
+
+    },
+    {
+      "id": 2,
+      "name": "Pirelli SCORPION™ ALL TERRAIN PLUS",
+      "imageURL": "https://static.tirerack.com/content/dam/tires/pirelli/pi_scorpion_all_terrain_plus_owl_full.jpg?imwidth=440&impolicy=tow-pdp-main",
+      "price": "$267.59",
+      "description": "P265/65/R18, Pirelli's SCORPION™ ALL TERRAIN PLUS 265/65R18 114T provides an aggresive tread pattern and sidewall design for light truck and SUV drivers. Reliable on and off-road, it features low road noise and conical stone ejectors for self cleaning, while delivering excellent mud, gravel, wet, and sand traction. The SCORPION™ ALL TERRAIN PLUS 265/65R18 114T is also severe snow service rated with a 3 Peak Mountain Snowflake.",
+      "warrantyInfo": "This Limited Warranty includes a 30-day trial period for select Pirelli Replacement Tires installed as a set of four (4) (front and rear) within 30 days of your original purchase date or the first 2/32” of original usable tread, whichever occurs first, you may return the set of eligible Pirelli Replacement Tires you wish to replace to the original place of purchase, along with the original purchase sales receipt, and exchange them for a different set of Pirelli Replacement Tires. As an alternative, if there is no other suitable Pirelli Replacement Tire line available in your size, the purchase price of the eligible tires you are seeking to return will be refunded, less taxes and fees."
+    },
+    {
+      "id": 3,
+      "name": "GoodYear Wrangler All-Terrain Adventure with Kevlar",
+      "imageURL": "https://www.goodyear.com/dw/image/v2/BJQJ_PRD/on/demandware.static/-/Sites-goodyear-master-catalog/default/dw8ea6d098/images/large/Wrangler_All_Terrain_Adventure_2732.png?sw=900&sh=800&sm=fit&sfrm=png",
+      "price": "$289.00",
+      "description": "Rugged strength provided by a layer of DuPont™ Kevlar.® (DuPont ™ and Kevlar® are trademarks or registered trademarks of E.I. du Pont de Nemours and Company.) The Durawall™ Technology helps prevent cuts in the sidewall. Versatile off-road traction in wet, muddy conditions as a result of its open tread pattern. Superb traction in the snow and rain thanks to its tread compound and biting edges that help grip the road. The LT sizes include two layers of Kevlar, 30% more steel†† for enhanced toughness, and a Severe Snow Conditions Symbol¥ for winter weather driving. LT Sizes are Three Peak Mountain Certified",
+      "warrantyInfo": "We know you want to get the most out of your tires. That's why we confidently back this tire with a warranty that helps protect you in the case of premature treadwear. 60,000 mi./ 95,000 km. Exclusions apply; see full warranty for details"
+    },
+    {
+      "id": 4,
+      "name": "Cooper DISCOVERER AT3 4S",
+      "imageURL": "https://cdn.discounttire.com/sys-master/images/h7d/hd4/8893691789342/coprl0_ang_xl.jpg",
+      "price": "$261.99",
+      "description": "The Cooper Discoverer AT3 4S is an all-terrain tire that's doing it all. Designed to handle aggressive off-road driving situations and to provide world-class ride comfort, the AT3 4S Cooper's answer for the 4x4 enthusiast who wants an AT they can live with. Think of the Discoverer AT3 4S as a bodyguard in a business suit. It's durable and ready for the rough stuff, but it's also maybe even a little unassuming compared to the tread and sidewall designs of other aggressive all-terrain tires out there. In fact, the truth of this Cooper Discoverer is that it's ready for anything. Loaded with Cooper's cutting-edge tire development technologies, it's a tire that's built to last and lay down comfortable performance on any type of on or off-road condition.",
+      "warrantyInfo": "But maybe the best Discoverer AT3 4S feature is Cooper's 65,000-mile manufacturer warranty—one of the best currently available for an all-terrain tire like this one. With sizes from 15-inch wheel diameters on up to 22-inches, there's an AT3 4S that offers pound-for-pound value for your truck or SUV no matter how you use it."
+    },
+    {
+      "id": 5,
+      "name": "Yokohama GEOLANDAR A/T G015",
+      "imageURL": "https://cdn.discounttire.com/sys-master/images/h86/h57/8811605360670/yokrl2.ang.xl.jpg",
+      "price": "$243.99",
+      "description": "The most challenging terrains are no match for the Yokohama Geolandar A/T G015. Designed to adapt to harsh driving conditions, this all-terrain tire is perfect for light truck, crossover, and SUV drivers who go the distance–even in colder climates. To deliver the perfect blend of on- and off-road performance, the Geolandar G015's advanced tread design provides capable off-road traction while staying quiet on paved roads. And thanks to its sturdy Endurocore construction, this tire can handle the wear and tear of your vehicle’s heavy loads, on or off the road. ",
+      "warrantyInfo": "Because you're choosing Yokohama, your purchase includes a limited treadwear warranty up to 60,000 miles and a 30-day trial satisfaction guarantee. "
+    },
+    {
+      "id": 6,
+      "name": "Atturo TRAIL BLADE ATS",
+      "imageURL": "https://cdn.discounttire.com/sys-master/images/h33/he2/10218760503326/atutbats_ang_xl.jpg",
+      "price": "$154.76",
+      "description": "An on-and-off-road all-terrain tire that takes its inspiration from the eye-catching blades at Quartermaster Knives, the Atturo Trail Blade ATS is all about all-terrain grit. Designed to tackle any terrain from the highway to the campsite, and every trail in between, the second member of the Trail Blade Sport series is the perfect addition to your pickup or SUV. ",
+      "warrantyInfo": "Designed to provide on/off-road performance that lasts, Atturo backs the ATS with a 50,000-mile warranty."
+    },
+    {
+      "id": 7,
+      "name": "Michelin X-ICE SNOW",
+      "imageURL": "https://cdn.discounttire.com/sys-master/images/hd3/hb4/9514963533854/mmisp2_ang_xl.jpg",
+      "price": "$259.07",
+      "description": "From the first name in tire safety comes a winter tire designed to help you stop shorter and drive with more confidence in the harshest winter conditions—the Michelin X-Ice Snow. The Michelin X-Ice Snow is built to deliver powerful traction in frigid weather, so you can take on the unforgiving winter conditions of your region of the country. Engineered with cutting edge technology from one of the world's leading tire manufacturers, the Michelin X-Ice Snow has the stopping power you need to stay safe and the long-lasting tread life so you can take on season after season. Compared to the competition's leading winter tires, the X-Ice Snow stops up to 8.85 feet shorter on ice thanks to the Ice Snow Michelin Evergrip technologies. ",
+      "warrantyInfo": "As a result, Michelin back all available sizes of the X-Ice Snow with a 40,000-mile limited manufacturer's warranty. However, if you want the most robust protection for your new X Ice winter tires, Discount Tire's exclusive Certificates will cover them on down to 3/32” of wear."
+    },
+    {
+      "id": 8,
+      "name": "Falken WILDPEAK A/T3W",
+      "imageURL": "https://cdn.discounttire.com/sys-master/images/hf2/hc2/10352802398238/tire_falken_wildpeak-at3w_bsw_lifestyle_Zoom.jpg",
+      "price": "$270.00",
+      "description": "For those who never want to stop exploring, you need the tires to get you to your waypoint. That's where the Falken Wildpeak A/T3W comes in. These all-terrain tires are designed to lay down serious off-road performance while providing day-to-day driving manners so that you can own the trail and still enjoy your vehicle on pavement. f you're the type of driver who won't let harsh terrain or unforgiving weather stop your adventure, then the Falken Wildpeak A/T3W might be the right choice for your light truck, SUV, CUV or 4x4. It's a rugged all-terrain tire engineered to rise to any challenge—whether that's a long day at the worksite, a cross-country road trip or your next off-road adventure. When reading the name Wildpeak AT3W, you may find yourself wondering, what does the “3W” mean? The answer: the three areas of performance that the Falken prioritizes with the Wildpeak A/T3W: wear, wet and winter performance. Built with cutting edge features that include a silica-enriched tread compound and deep tread design, you can count on these Wildpeak tires both to last and provide effective performance as they wear. (Not only does its silica-enhanced tread compound resist wear, it also performs well across a wide range of temperatures and in wet weather; the AT3W performs in all weather conditions, not just off road.) In short, when you outfit your vehicle with Wildpeak AT3W tires, you're getting aggressive off-road performance and everyday ride quality that you can count on, mile after mile and season after season.",
+      "warrantyInfo": "With its category-leading tread depth and wear-resistant tread pattern, the Wildpeak A/T3W, you can count on consistent performance over its long life. Because of this, Falken back both LT and P-metric sizes of the AT3W with a 55,000-mile limited treadwear warranty."
+    }
+  ]
+}

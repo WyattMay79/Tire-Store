@@ -1,0 +1,25 @@
+<div class="container">  
+    <div class="head">
+        <h1 class="title">Product List:</h1>
+        <div class="topBtn">
+            <button mat-stroked-button class="add" [routerLink]="['/newProduct']">Add</button>
+            <button mat-stroked-button (click)="sortBy = 'name'; sortProducts()">Sort By Name</button>
+            <button mat-stroked-button (click)="sortBy = 'price'; sortProducts()">Sort By Price</button>
+        </div>
+    </div>
+    <div class="divOne">
+        <mat-card *ngFor="let t of tireList" class="tires" [routerLink]="['/products', t.id]">
+            <img mat-card-image [src]="t.imageURL" alt="tire photo">
+            <mat-card-content class="details">
+                <mat-card-title>{{t.name}}</mat-card-title>
+                <p class="price">{{t.price}} per tire</p>
+            </mat-card-content>
+            <mat-divider></mat-divider>
+            <mat-card-actions class="btn">
+                <button mat-stroked-button [routerLink]="['/products/', t.id]">View</button>
+                <button mat-stroked-button [routerLink]="['/editProduct', t.id]">Edit</button>
+                <button mat-stroked-button (click)="onDelete(t.id)">Delete</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

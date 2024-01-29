@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+}
+img{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+form{
+
+}
+.form{
+    width: 80%;
+    border: 2px solid black;
+
+}
+button{
+    margin:10px 45px;
+    padding:auto;
+    background-color: coral;
+}
+div{
+    margin: 20px 10px;
+}
+textarea{
+    resize:vertical;
+}
+mat-label{
+    color:orangered;
+}

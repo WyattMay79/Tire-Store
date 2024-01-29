@@ -1,0 +1,28 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar class="Menu"><img [src]="['https://a0.anyrgb.com/pngimg/1194/204/tire-fire-burn-out-racing-slick-burnout-flat-tire-radial-tire-bicycle-tires-synthetic-rubber-bicycle-motorcycle.png']"></mat-toolbar>
+    <mat-nav-list class="nav">
+      <a mat-list-item [routerLink]="['/home']">Home</a>
+      <a mat-list-item [routerLink]="['/about']">About</a>
+      <a mat-list-item [routerLink]="['/products']">Products</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="head">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">Menu</mat-icon>
+      </button>
+      <span>Keep 'em Rolling</span>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

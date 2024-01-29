@@ -1,0 +1,37 @@
+<div class="container">
+    <img [src]="edittedTire.imageURL" alt="tire photo">
+    <form #form="ngForm" (ngSubmit)="editTire()">
+        <mat-form-field class="form">
+            <div>
+                <mat-label for="name">Name: </mat-label>
+                <input matInput placeholder="Ex. Yokohama" name="name" [(ngModel)]="edittedTire.name">
+            </div>
+            <mat-divider></mat-divider>
+            <div>
+                <mat-label for="price">Price: </mat-label>
+            <input matInput placeholder="Ex. $499.99" name="price" [(ngModel)]="edittedTire.price">
+            </div>
+            <mat-divider></mat-divider>
+            <div>
+                <mat-label for="imageURL">Image URL: </mat-label>
+                <input matInput placeholder="Ex. $499.99" name="imageURL" [(ngModel)]="edittedTire.imageURL">
+            </div>
+            <mat-divider></mat-divider>
+            <div>
+                <mat-label for="description">Description: </mat-label>
+                <textarea matInput placeholder="Ex. This tire has great tread!" name="description" [(ngModel)]="edittedTire.description"></textarea>
+            </div>
+            <mat-divider></mat-divider>
+            <div>
+                <mat-label for="warranty">Warranty Info: </mat-label>
+                <textarea matInput name="warranty" [(ngModel)]="edittedTire.warrantyInfo"></textarea>
+            </div>
+            
+        </mat-form-field>
+        <div>
+            <button mat-stroked-button [routerLink]="['/products']">Back</button>
+            <button mat-stroked-button (click)="editTire()">Submit</button>
+        </div>
+    </form>
+</div>
+   

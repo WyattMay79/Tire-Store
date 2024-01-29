@@ -1,0 +1,49 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 115px;
+  background-color: rgb(76, 76, 76);
+  color: black !important;
+}
+.head{
+  background-color: rgb(65, 142, 205);
+  color: black;
+}
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mat-toolbar span{
+  color: red;
+  text-shadow: 1.3px 1.3px black ;
+}
+.mat-toolbar img {
+  margin: 1% 1%;
+  height: 90%;
+  width: 90%;
+}
+.nav {
+  padding-top: 15px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+[main] {
+  min-height: 100%;
+}
+
+[footer] {
+  height: 150px;
+  margin-top: -150px;
+  text-align: center;
+  font-size: medium;
+}
